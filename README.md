@@ -36,13 +36,9 @@ project
 
 ### Temporary Note
 không quan tâm chi nhánh
-
 bỏ vế sau
-
 membership - 2 tháng - 1
-
 cust id, 
-
 recency: thời gian cuối cùng mua (unit là week)
 frequency: count transaction
 price: sum all price
