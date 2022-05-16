@@ -16,10 +16,23 @@ project
 |
 |___notebooks
 |   |   clustering.ipynb
-|   |   processing_data.ipynb
-|
+|   |   collaborative filtering.ipynb
+|   |   plot.ipynb
+|   |   prepare_data.ipynb
+|___processing_data.py
 |   README.md
 ```
+
+- `processing_data.py`: File này nhận một đường dẫn đến file excel và trả về file csv đã xử lý.
+- `prepare_data.ipynb`: File này xử lý dữ liệu RFM từ file csv đã xử lý.
+- `clustering.ipynb`: File này phân cụm dữ liệu từ dữ liệu RFM trên.
+- `collaborative filtering.ipynb`: File này làm lọc cộng tác từ dữ liệu đã xử lý ở trên.
+
+## Test
+- 80% train - 20% test
+- Đưa data vào notebook, xong nó ra:
+    - giá trị f1_score
+    - Xuất ra những sản phẩm recommend
 
 ### Temporary Note
 không quan tâm chi nhánh
