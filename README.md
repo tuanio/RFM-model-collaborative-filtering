@@ -33,6 +33,7 @@ project
 - Đưa data vào notebook, xong nó ra:
     - giá trị f1_score
     - Xuất ra những sản phẩm recommend
+- So sánh với CF data gốc (rating là quantity x price)
 
 ### Temporary Note
 không quan tâm chi nhánh
