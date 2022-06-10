@@ -17,6 +17,7 @@ project
 |___notebooks
 |   |   clustering.ipynb
 |   |   collaborative filtering.ipynb
+|   |   train_test_split.ipynb
 |   |   plot.ipynb
 |   |   prepare_data.ipynb
 |___processing_data.py
@@ -26,7 +27,10 @@ project
 - `processing_data.py`: File này nhận một đường dẫn đến file excel và trả về file csv đã xử lý.
 - `prepare_data.ipynb`: File này xử lý dữ liệu RFM từ file csv đã xử lý.
 - `clustering.ipynb`: File này phân cụm dữ liệu từ dữ liệu RFM trên.
+- `train_test_split.ipynb`: Chia train test sau khi phân cụm.
 - `collaborative filtering.ipynb`: File này làm lọc cộng tác từ dữ liệu đã xử lý ở trên.
+
+`prepare_data` -> `clustering` -> `train_test_split` -> `collaborative filtering`
 
 ## Test
 - 80% train - 20% test
