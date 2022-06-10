@@ -15,14 +15,24 @@ project
 |   |   ref-main.pdf
 |
 |___notebooks
-|   |   clustering.ipynb
-|   |   collaborative filtering.ipynb
-|   |   train_test_split.ipynb
-|   |   plot.ipynb
-|   |   prepare_data.ipynb
+|   |___cluster_first
+|   |   |   clustering.ipynb
+|   |   |   collaborative filtering.ipynb
+|   |   |   train_test_split.ipynb
+|   |   |   plot.ipynb
+|   |   |   prepare_data.ipynb
+|   |___split_first
+|   |   |   clustering.ipynb
+|   |   |   collaborative filtering.ipynb
+|   |   |   plot.ipynb
+|   |   |   prepare_data.ipynb
+|   |   
 |___processing_data.py
 |   README.md
 ```
+
+- `cluster_first`: Phân cụm trước rồi mới chia train test
+- `split_first`: Chia train test rồi mới phân cụm
 
 - `processing_data.py`: File này nhận một đường dẫn đến file excel và trả về file csv đã xử lý.
 - `prepare_data.ipynb`: File này xử lý dữ liệu RFM từ file csv đã xử lý.
